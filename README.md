@@ -323,7 +323,7 @@ input[type="range"] { width: 100%; accent-color: var(--gold); cursor: pointer; }
   <div class="progress-row"><span id="currentTime">0:00</span><input type="range" id="seekBar" min="0" max="100" value="0" aria-label="Posição da música"><span id="duration">0:00</span></div>
   <label class="volume-row">Volume <input type="range" id="volume" min="0" max="1" step="0.01" value="0.75" aria-label="Volume"></label>
   <div class="track-list" id="trackList" aria-label="Lista de músicas"></div>
-  <p class="player-note">Adicione até cinco arquivos à pasta <strong>music</strong> e edite os títulos no script.</p>
+  <p class="player-note">Coloque os arquivos musica1.mp3, musica2.mp3 e assim por diante na mesma pasta deste site.</p>
 </aside>
 
 <main>
@@ -332,13 +332,13 @@ input[type="range"] { width: 100%; accent-color: var(--gold); cursor: pointer; }
       <div class="eyebrow">um retrato em capítulos</div>
       <h1>Entre máscaras<br>e <span>constelações.</span></h1>
       <div class="ornament">✦ · ☾ · ✦</div>
-      <p>Me chame de Apolo. Programação, palco, breaking, videogames e personagens que ficam na cabeça muito depois que a história termina. Um pouco de tecnologia, um pouco de arte e vários universos dividindo o mesmo espaço.</p>
+      <p>Me chama de Arthur, me chama de Apolo. Programação, palco, breaking, videogames e personagens que ficam na cabeça muito depois que a história termina. Um pouco de tecnologia, um pouco de arte e vários universos dividindo o mesmo espaço.</p>
       <p class="hero-note">“A cortina sobe. O resto é descobrir qual versão de mim entra em cena.”</p>
     </div>
     <div class="hero-art">
       <div class="carousel-frame">
         <img src="images/capa.jpg" alt="Imagem do capítulo atual" data-scroll-image>
-        <div class="carousel-mark">✦ <span id="carouselCount">01 / 09</span> ✦</div>
+        <div class="carousel-mark">✦ <span id="carouselCount">01 / 07</span> ✦</div>
       </div>
       <div class="image-caption" data-caption>O espetáculo começa antes de a cortina subir.</div>
     </div>
@@ -352,24 +352,24 @@ input[type="range"] { width: 100%; accent-color: var(--gold); cursor: pointer; }
       <p>Cada capítulo revela um pedaço diferente. As imagens mudam junto com a história, como cenários de um teatro que nunca fica parado.</p>
     </div>
 
-    <article class="chapter" data-section-image="images/tecnologia.jpg" data-section-caption="Curiosidade, lógica e possibilidades: o começo de qualquer criação.">
+    <article class="chapter" data-section-image="images/capa.jpg" data-section-caption="Um pouco de cada coisa, sem caber numa única caixa.">
       <div class="chapter-copy">
-        <div class="chapter-number">CAPÍTULO I · TECNOLOGIA</div>
-        <h3>Entre códigos e possibilidades</h3>
-        <p>Programação, tecnologia, redes de internet e cibersegurança estão entre as coisas que despertam minha curiosidade. Gosto de aprender como sistemas funcionam, experimentar ideias e imaginar projetos que saiam da tela e ganhem vida.</p>
-        <p>Também gosto do universo de criação de jogos: pensar em mundos, mecânicas, personagens e histórias que façam alguém querer ficar ali mais um pouco.</p>
+        <div class="chapter-number">CAPÍTULO I · SOBRE MIM</div>
+        <h3>Várias versões, uma pessoa só</h3>
+        <p>Sou um pouco reservado e não costumo conversar muito com outras pessoas. Ainda assim, gosto de explorar assuntos bem diferentes: tecnologia, arte, videogames, circo e dança. Sempre tem algum universo novo para conhecer ou alguma ideia para tirar do papel.</p>
+        <p>Também gosto de romances e histórias que deixam alguma coisa no ar. No geral, prefiro descobrir, criar e fazer as pessoas sorrirem, sem precisar transformar tudo em uma grande explicação.</p>
       </div>
-      <figure class="chapter-image"><img src="images/tecnologia.jpg" alt="Computador e ambiente de criação" loading="lazy"><figcaption>Um mundo inteiro pode começar numa linha de código.</figcaption></figure>
+      <figure class="chapter-image"><img src="images/capa.jpg" alt="Retrato visual de Apolo" loading="lazy"><figcaption>Um retrato em capítulos, nunca uma definição fechada.</figcaption></figure>
     </article>
 
-    <article class="chapter" data-section-image="images/trabalho.jpg" data-section-caption="Organização, responsabilidade e o próximo passo.">
+    <article class="chapter" data-section-image="images/tecnologia.jpg" data-section-caption="Curiosidade, lógica e possibilidades: o começo de qualquer criação.">
       <div class="chapter-copy">
-        <div class="chapter-number">CAPÍTULO II · VIDA PROFISSIONAL</div>
-        <h3>O lado organizado da história</h3>
-        <p>Também faço parte do universo administrativo. Gosto de desenvolver habilidades úteis, aprender na prática e construir uma base para os próximos passos da minha vida.</p>
-        <p>Minha trajetória mistura áreas diferentes, e é justamente isso que me interessa: continuar aprendendo sem precisar caber numa única definição.</p>
+        <div class="chapter-number">CAPÍTULO II · TECNOLOGIA E CRIAÇÃO</div>
+        <h3>Entre códigos e possibilidades</h3>
+        <p>Programação, computadores, redes e tecnologia estão entre as coisas que despertam minha curiosidade. Gosto de entender como as coisas funcionam, mexer nas configurações, experimentar ideias e criar projetos que saiam da tela e ganhem vida.</p>
+        <p>Também me interesso pela área administrativa e por aprender habilidades que possam abrir caminhos. Gosto de descobrir ferramentas, resolver problemas e transformar curiosidade em alguma coisa concreta.</p>
       </div>
-      <figure class="chapter-image"><img src="images/trabalho.jpg" alt="Caderno e mesa de trabalho" loading="lazy"><figcaption>Aprender, fazer, melhorar e seguir.</figcaption></figure>
+      <figure class="chapter-image"><img src="images/tecnologia.jpg" alt="Computador e ambiente de criação" loading="lazy"><figcaption>Um mundo inteiro pode começar numa linha de código.</figcaption></figure>
     </article>
 
     <article class="chapter" data-section-image="images/palhaco.jpg" data-section-caption="O espetáculo também é uma forma de encontrar alguém no meio da multidão.">
@@ -392,52 +392,22 @@ input[type="range"] { width: 100%; accent-color: var(--gold); cursor: pointer; }
       <figure class="chapter-image"><img src="images/breaking.jpg" alt="B-boy em movimento" loading="lazy"><figcaption>Deixar a música guiar o movimento.</figcaption></figure>
     </article>
 
-    <article class="chapter" data-section-image="images/personagens.jpg" data-section-caption="Heróis, anti-heróis e personagens que vivem nas zonas cinzentas.">
+    <article class="chapter" data-section-image="demo_images/games.jpg" data-section-caption="Jogos, personagens e mundos onde a imaginação não fica quieta.">
       <div class="chapter-copy">
-        <div class="chapter-number">CAPÍTULO V · HERÓIS E ANTI-HERÓIS</div>
-        <h3>Personagens que me acompanham</h3>
-        <p>Gosto de John Constantine, Homem-Aranha, Cavaleiro da Lua, Jason Todd / Capuz Vermelho, Doutor Destino, Trigon e Coringa. Também gosto de personagens e histórias da Marvel e da DC, principalmente quando a fantasia encontra dilemas, mistério e um lado mais sombrio.</p>
-        <p>Na animação e em outros universos, também curto Arcane, especialmente Jinx e Ekko, além de O Incrível Circo Digital e Rick and Morty.</p>
+        <div class="chapter-number">CAPÍTULO V · JOGOS E UNIVERSOS</div>
+        <h3>Personagens, terror e outros mundos</h3>
+        <p>Entre os jogos de que gosto estão <em>Final Fantasy XV</em>, <em>Final Fantasy VII</em>, <em>The Legend of Zelda</em>, <em>Overwatch</em> e <em>Resident Evil</em>. Também curto RPGs, terror, suspense, fantasia e histórias que deixam perguntas na cabeça.</p>
+        <p>Nos quadrinhos e nas telas, gosto de Constantine, Homem-Aranha, Cavaleiro da Lua, Jason Todd / Capuz Vermelho, Doutor Destino, Trigon, Coringa, Jinx e Ekko. Também acompanho universos como Marvel, DC, <em>Arcane</em>, <em>Harry Potter</em>, <em>Rick and Morty</em> e <em>O Incrível Circo Digital</em>.</p>
       </div>
-      <figure class="chapter-image"><img src="images/personagens.jpg" alt="Clima de fantasia e quadrinhos" loading="lazy"><figcaption>Alguns personagens viram companhia, outros viram inspiração.</figcaption></figure>
-    </article>
-
-    <article class="chapter" data-section-image="images/terror.jpg" data-section-caption="Portas rangendo, mistérios e histórias que ficam na cabeça.">
-      <div class="chapter-copy">
-        <div class="chapter-number">CAPÍTULO VI · TERROR E FANTASIA</div>
-        <h3>Um pouco de escuridão também é diversão</h3>
-        <p>Também gosto de terror, suspense e mundos estranhos. Resident Evil está entre os jogos que curto, assim como histórias que misturam mistério, criaturas, tensão e perguntas sem respostas fáceis.</p>
-        <p>Harry Potter também faz parte dos universos nerds que me interessam, junto de super-heróis, ficção científica e fantasia. Gosto de passear por mundos diferentes e descobrir o que cada um tem para contar.</p>
-      </div>
-      <figure class="chapter-image"><img src="demo_images/terror.jpg" alt="Atmosfera sombria de terror e suspense" loading="lazy"><figcaption>Nem toda história precisa acontecer à luz do dia.</figcaption></figure>
-    </article>
-
-    <article class="chapter" data-section-image="images/games.jpg" data-section-caption="Jogos que viram lembranças, desafios e mundos para explorar.">
-      <div class="chapter-copy">
-        <div class="chapter-number">CAPÍTULO VII · VIDEOGAMES</div>
-        <h3>Meu lugar em outros mundos</h3>
-        <p>Nos videogames, gosto de <em>Final Fantasy XV</em>, <em>Final Fantasy VII</em>, <em>The Legend of Zelda</em>, <em>Overwatch</em>, <em>Resident Evil</em> e <em>Rocket League</em>. Também curto RPGs, jogos com boas histórias e universos em que dá vontade de explorar cada canto.</p>
-        <p>Gosto quando um jogo consegue juntar trilha sonora, personagens, combate e uma história que continua comigo mesmo depois de desligar o console.</p>
-      </div>
-      <figure class="chapter-image"><img src="demo_images/games.jpg" alt="Controle e ambiente de videogame" loading="lazy"><figcaption>Mais uma missão antes de voltar ao mundo real.</figcaption></figure>
-    </article>
-
-    <article class="chapter" data-section-image="images/lua.jpg" data-section-caption="Romance, música e palavras para sentimentos difíceis de resumir.">
-      <div class="chapter-copy">
-        <div class="chapter-number">CAPÍTULO VIII · ROMANCE E POESIA</div>
-        <h3>Romântico, com trilha sonora própria</h3>
-        <p>Gosto de romance, poemas, músicas intensas e histórias que mexem com o coração. Tenho carinho por narrativas de amor que enfrentam obstáculos, por amores improváveis e por personagens que parecem viver entre esperança e saudade.</p>
-        <p>Também gosto de escrever e de encontrar palavras para sentimentos, imagens e pensamentos. Às vezes, uma música ou uma frase consegue expressar uma coisa que parecia impossível de explicar.</p>
-      </div>
-      <figure class="chapter-image"><img src="images/lua.jpg" alt="Lua em céu noturno" loading="lazy"><figcaption>Admirador da lua, das músicas e das histórias que deixam marca.</figcaption></figure>
+      <figure class="chapter-image"><img src="demo_images/games.jpg" alt="Atmosfera de videogames e universos fantásticos" loading="lazy"><figcaption>Uma coleção de mundos para explorar e histórias para acompanhar.</figcaption></figure>
     </article>
 
     <article class="chapter" data-section-image="images/arte.jpg" data-section-caption="Criar, imaginar e fazer alguém sorrir: diferentes formas de expressão.">
       <div class="chapter-copy">
-        <div class="chapter-number">CAPÍTULO IX · O QUE ME MOVE</div>
+        <div class="chapter-number">CAPÍTULO VI · O QUE ME MOVE</div>
         <h3>Fazer as pessoas felizes</h3>
-        <p>Uma coisa que gosto é fazer as pessoas felizes, seja arrancando um sorriso, criando alguma coisa, dividindo uma música ou simplesmente oferecendo um momento bom no meio de um dia comum.</p>
-        <p>Sou uma mistura de interesses: tecnologia, arte, dança, videogames, personagens, romance e imaginação. Não preciso escolher só um caminho para continuar descobrindo quem sou.</p>
+        <p>Gosto de fazer as pessoas sorrirem, seja com humor, arte, uma ideia inesperada ou um momento leve no meio da rotina.</p>
+        <p>Por aqui se encontram tecnologia, circo, dança, videogames, personagens e imaginação. Cada assunto abre uma porta diferente, e sempre existe algo novo para experimentar.</p>
       </div>
       <figure class="chapter-image"><img src="demo_images/arte.jpg" alt="Máscaras teatrais e luz de palco" loading="lazy"><figcaption>Que alguma coisa boa fique depois que o espetáculo terminar.</figcaption></figure>
     </article>
@@ -447,24 +417,24 @@ input[type="range"] { width: 100%; accent-color: var(--gold); cursor: pointer; }
 
   <section class="contact" id="contato">
     <div class="eyebrow">uma porta sempre aberta</div>
-    <h2>Se o dia pesar, não precisa carregar tudo sozinho.</h2>
-    <p>Gosto de fazer as pessoas sorrirem, mas sei que nem todo sentimento se resolve com uma piada. Se você estiver passando por um momento difícil e precisar conversar com alguém, o CVV oferece apoio emocional gratuito e sigiloso.</p>
+    <h2>Um espaço para quem precisar de apoio.</h2>
+    <p>Se você estiver passando por um momento difícil e quiser conversar com alguém, o CVV oferece apoio emocional gratuito e sigiloso.</p>
     <a class="cvv-button" href="https://cvv.org.br/" target="_blank" rel="noopener noreferrer">Encontrar apoio no CVV ↗</a>
     <p style="font-size:.9rem; margin-top:22px; color:var(--muted)">No Brasil, também é possível ligar para o 188, gratuitamente, 24 horas por dia.</p>
   </section>
 </main>
 
 <footer class="footer">
-  Feito entre <span>código, arte e sentimento</span> · Apolo / Arthur
+  Feito entre <span>código, arte e imaginação</span> · Apolo / Arthur
 </footer>
 
 <script>
 const tracks = [
-  { title: "Faixa 01 · Adicione sua música", artist: "Artista", src: "music/musica-1.mp3" },
-  { title: "Faixa 02 · Adicione sua música", artist: "Artista", src: "music/musica-2.mp3" },
-  { title: "Faixa 03 · Adicione sua música", artist: "Artista", src: "music/musica-3.mp3" },
-  { title: "Faixa 04 · Adicione sua música", artist: "Artista", src: "music/musica-4.mp3" },
-  { title: "Faixa 05 · Adicione sua música", artist: "Artista", src: "music/musica-5.mp3" }
+  { title: "Faixa 01 · Adicione sua música", artist: "Artista", src: "musica1.mp3" },
+  { title: "Faixa 02 · Adicione sua música", artist: "Artista", src: "musica2.mp3" },
+  { title: "Faixa 03 · Adicione sua música", artist: "Artista", src: "musica3.mp3" },
+  { title: "Faixa 04 · Adicione sua música", artist: "Artista", src: "musica4.mp3" },
+  { title: "Faixa 05 · Adicione sua música", artist: "Artista", src: "musica5.mp3" }
 ];
 
 const audio = document.getElementById("audio");
@@ -533,7 +503,7 @@ playBtn.addEventListener("click", () => {
   if (audio.paused) {
     audio.play().then(updatePlayState).catch(() => {
       trackTitle.textContent = "Arquivo de música não encontrado";
-      trackArtist.textContent = "Adicione o arquivo correspondente na pasta music.";
+      trackArtist.textContent = "Confira se o arquivo correspondente está junto do index.html e tem o mesmo nome.";
     });
   } else {
     audio.pause();
